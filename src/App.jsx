@@ -1,4 +1,5 @@
 import MeuComponente from "./components/MeuComponente"
+import MeuBotao from "./components/MeuBotao"
 
 function App() {
  
@@ -13,10 +14,4 @@ function App() {
   )
 }
 
-function MeuBotao(props) {
-  console.log(props.conteudo);
-  return (
-    <button>{props.conteudo}</button>
-  )
-}
 export default App
