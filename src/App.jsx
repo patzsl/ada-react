@@ -1,10 +1,10 @@
-import MeuContador from "./components/MeuContador"
+import Contador from "./components/Contador"
 
 function App() {
  
   return (
     <div>
-      <MeuContador />
+      <Contador />
     </div>
   )
 }
