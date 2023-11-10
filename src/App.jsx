@@ -1,11 +1,10 @@
-import MeuComponente from "./components/MeuComponente"
-import MeuBotao from "./components/MeuBotao"
+import MeuContador from "./components/MeuContador"
 
 function App() {
  
   return (
     <div>
-      <h1>App!</h1>
+      <MeuContador />
     </div>
   )
 }
