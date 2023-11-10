@@ -1,11 +1,10 @@
-import MeuComponente from "./components/MeuComponente"
-import MeuBotao from "./components/MeuBotao"
+import MinhaLista from "./components/MinhaLista"
 
 function App() {
  
   return (
     <div>
-      <h1>App!</h1>
+      <MinhaLista />
     </div>
   )
 }
